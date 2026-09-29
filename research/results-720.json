@@ -1,0 +1,2180 @@
+[
+  {
+    "stem": "tile-02-720-raw-otsu",
+    "tile": 2,
+    "role": "reference",
+    "method": "raw-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5205.PNG",
+    "source_sha256": "c733f4faf55689d9482f949c23f05c7fe495c1702484e32ec12cabb7d83129ed",
+    "source_size": [
+      2145,
+      2482
+    ],
+    "working_size": [
+      622,
+      720
+    ],
+    "preparation": {
+      "threshold": 76
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.5816,
+    "pixel_components_8_connected": 270,
+    "pixel_holes_4_connected": 230,
+    "trace_seconds": 0.616,
+    "contours": 467,
+    "segments": 2730,
+    "svg_bytes": 135949
+  },
+  {
+    "stem": "tile-02-720-soft-otsu",
+    "tile": 2,
+    "role": "reference",
+    "method": "soft-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5205.PNG",
+    "source_sha256": "c733f4faf55689d9482f949c23f05c7fe495c1702484e32ec12cabb7d83129ed",
+    "source_size": [
+      2145,
+      2482
+    ],
+    "working_size": [
+      622,
+      720
+    ],
+    "preparation": {
+      "threshold": 76,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.5812,
+    "pixel_components_8_connected": 102,
+    "pixel_holes_4_connected": 39,
+    "trace_seconds": 0.201,
+    "contours": 136,
+    "segments": 1073,
+    "svg_bytes": 51389
+  },
+  {
+    "stem": "tile-02-720-connected-tones",
+    "tile": 2,
+    "role": "reference",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5205.PNG",
+    "source_sha256": "c733f4faf55689d9482f949c23f05c7fe495c1702484e32ec12cabb7d83129ed",
+    "source_size": [
+      2145,
+      2482
+    ],
+    "working_size": [
+      622,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 76,
+      "growth_threshold": 53.2,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6056,
+    "pixel_components_8_connected": 27,
+    "pixel_holes_4_connected": 80,
+    "trace_seconds": 0.173,
+    "contours": 101,
+    "segments": 975,
+    "svg_bytes": 45874
+  },
+  {
+    "stem": "tile-02-720-local-light",
+    "tile": 2,
+    "role": "reference",
+    "method": "local-light",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5205.PNG",
+    "source_sha256": "c733f4faf55689d9482f949c23f05c7fe495c1702484e32ec12cabb7d83129ed",
+    "source_size": [
+      2145,
+      2482
+    ],
+    "working_size": [
+      622,
+      720
+    ],
+    "preparation": {
+      "threshold": 74,
+      "illumination_sigma": 32,
+      "gain_limits": [
+        0.7,
+        1.4
+      ]
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6049,
+    "pixel_components_8_connected": 342,
+    "pixel_holes_4_connected": 302,
+    "trace_seconds": 0.684,
+    "contours": 564,
+    "segments": 3250,
+    "svg_bytes": 161026
+  },
+  {
+    "stem": "tile-04-720-raw-otsu",
+    "tile": 4,
+    "role": "reference",
+    "method": "raw-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5207.PNG",
+    "source_sha256": "637c7d26d049fd25ed672bd024eded939607d84f3a2ce792b0f0eaf07e6a3f7e",
+    "source_size": [
+      1832,
+      2513
+    ],
+    "working_size": [
+      525,
+      720
+    ],
+    "preparation": {
+      "threshold": 54
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6837,
+    "pixel_components_8_connected": 341,
+    "pixel_holes_4_connected": 618,
+    "trace_seconds": 0.845,
+    "contours": 837,
+    "segments": 4517,
+    "svg_bytes": 227582
+  },
+  {
+    "stem": "tile-04-720-soft-otsu",
+    "tile": 4,
+    "role": "reference",
+    "method": "soft-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5207.PNG",
+    "source_sha256": "637c7d26d049fd25ed672bd024eded939607d84f3a2ce792b0f0eaf07e6a3f7e",
+    "source_size": [
+      1832,
+      2513
+    ],
+    "working_size": [
+      525,
+      720
+    ],
+    "preparation": {
+      "threshold": 54,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6852,
+    "pixel_components_8_connected": 152,
+    "pixel_holes_4_connected": 112,
+    "trace_seconds": 0.297,
+    "contours": 259,
+    "segments": 1771,
+    "svg_bytes": 86622
+  },
+  {
+    "stem": "tile-04-720-connected-tones",
+    "tile": 4,
+    "role": "reference",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5207.PNG",
+    "source_sha256": "637c7d26d049fd25ed672bd024eded939607d84f3a2ce792b0f0eaf07e6a3f7e",
+    "source_size": [
+      1832,
+      2513
+    ],
+    "working_size": [
+      525,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 54,
+      "growth_threshold": 37.8,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.7152,
+    "pixel_components_8_connected": 46,
+    "pixel_holes_4_connected": 79,
+    "trace_seconds": 0.175,
+    "contours": 115,
+    "segments": 1065,
+    "svg_bytes": 50133
+  },
+  {
+    "stem": "tile-04-720-local-light",
+    "tile": 4,
+    "role": "reference",
+    "method": "local-light",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5207.PNG",
+    "source_sha256": "637c7d26d049fd25ed672bd024eded939607d84f3a2ce792b0f0eaf07e6a3f7e",
+    "source_size": [
+      1832,
+      2513
+    ],
+    "working_size": [
+      525,
+      720
+    ],
+    "preparation": {
+      "threshold": 53,
+      "illumination_sigma": 32,
+      "gain_limits": [
+        0.7,
+        1.4
+      ]
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.7113,
+    "pixel_components_8_connected": 311,
+    "pixel_holes_4_connected": 359,
+    "trace_seconds": 0.63,
+    "contours": 589,
+    "segments": 3376,
+    "svg_bytes": 168094
+  },
+  {
+    "stem": "tile-29-720-raw-otsu",
+    "tile": 29,
+    "role": "reference",
+    "method": "raw-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5232.PNG",
+    "source_sha256": "01a5504039d379b7cd62cce5cfb94ecaf285e233c90a69dfd6206154b6205198",
+    "source_size": [
+      1767,
+      2269
+    ],
+    "working_size": [
+      561,
+      720
+    ],
+    "preparation": {
+      "threshold": 71
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.175,
+    "pixel_components_8_connected": 751,
+    "pixel_holes_4_connected": 293,
+    "trace_seconds": 1.081,
+    "contours": 949,
+    "segments": 5273,
+    "svg_bytes": 265872
+  },
+  {
+    "stem": "tile-29-720-soft-otsu",
+    "tile": 29,
+    "role": "reference",
+    "method": "soft-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5232.PNG",
+    "source_sha256": "01a5504039d379b7cd62cce5cfb94ecaf285e233c90a69dfd6206154b6205198",
+    "source_size": [
+      1767,
+      2269
+    ],
+    "working_size": [
+      561,
+      720
+    ],
+    "preparation": {
+      "threshold": 70,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.1739,
+    "pixel_components_8_connected": 322,
+    "pixel_holes_4_connected": 56,
+    "trace_seconds": 0.471,
+    "contours": 371,
+    "segments": 2391,
+    "svg_bytes": 118344
+  },
+  {
+    "stem": "tile-29-720-connected-tones",
+    "tile": 29,
+    "role": "reference",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5232.PNG",
+    "source_sha256": "01a5504039d379b7cd62cce5cfb94ecaf285e233c90a69dfd6206154b6205198",
+    "source_size": [
+      1767,
+      2269
+    ],
+    "working_size": [
+      561,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 70,
+      "growth_threshold": 49.0,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2186,
+    "pixel_components_8_connected": 98,
+    "pixel_holes_4_connected": 126,
+    "trace_seconds": 0.341,
+    "contours": 204,
+    "segments": 2306,
+    "svg_bytes": 108660
+  },
+  {
+    "stem": "tile-29-720-local-light",
+    "tile": 29,
+    "role": "reference",
+    "method": "local-light",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5232.PNG",
+    "source_sha256": "01a5504039d379b7cd62cce5cfb94ecaf285e233c90a69dfd6206154b6205198",
+    "source_size": [
+      1767,
+      2269
+    ],
+    "working_size": [
+      561,
+      720
+    ],
+    "preparation": {
+      "threshold": 51,
+      "illumination_sigma": 32,
+      "gain_limits": [
+        0.7,
+        1.4
+      ]
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.1823,
+    "pixel_components_8_connected": 805,
+    "pixel_holes_4_connected": 333,
+    "trace_seconds": 1.199,
+    "contours": 1038,
+    "segments": 5702,
+    "svg_bytes": 287618
+  },
+  {
+    "stem": "tile-12-720-raw-otsu",
+    "tile": 12,
+    "role": "unapproved generalization probe",
+    "method": "raw-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5215.PNG",
+    "source_sha256": "33c6dc62407fd2628b0ac117975278ec4c9151df27f11c18d3b1978709b9ce0a",
+    "source_size": [
+      2252,
+      2828
+    ],
+    "working_size": [
+      573,
+      720
+    ],
+    "preparation": {
+      "threshold": 65
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3203,
+    "pixel_components_8_connected": 621,
+    "pixel_holes_4_connected": 555,
+    "trace_seconds": 1.19,
+    "contours": 1023,
+    "segments": 5973,
+    "svg_bytes": 297161
+  },
+  {
+    "stem": "tile-12-720-soft-otsu",
+    "tile": 12,
+    "role": "unapproved generalization probe",
+    "method": "soft-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5215.PNG",
+    "source_sha256": "33c6dc62407fd2628b0ac117975278ec4c9151df27f11c18d3b1978709b9ce0a",
+    "source_size": [
+      2252,
+      2828
+    ],
+    "working_size": [
+      573,
+      720
+    ],
+    "preparation": {
+      "threshold": 65,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3196,
+    "pixel_components_8_connected": 237,
+    "pixel_holes_4_connected": 142,
+    "trace_seconds": 0.479,
+    "contours": 360,
+    "segments": 2565,
+    "svg_bytes": 124578
+  },
+  {
+    "stem": "tile-12-720-connected-tones",
+    "tile": 12,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5215.PNG",
+    "source_sha256": "33c6dc62407fd2628b0ac117975278ec4c9151df27f11c18d3b1978709b9ce0a",
+    "source_size": [
+      2252,
+      2828
+    ],
+    "working_size": [
+      573,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 65,
+      "growth_threshold": 45.5,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3628,
+    "pixel_components_8_connected": 39,
+    "pixel_holes_4_connected": 159,
+    "trace_seconds": 0.31,
+    "contours": 182,
+    "segments": 2095,
+    "svg_bytes": 98927
+  },
+  {
+    "stem": "tile-12-720-local-light",
+    "tile": 12,
+    "role": "unapproved generalization probe",
+    "method": "local-light",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5215.PNG",
+    "source_sha256": "33c6dc62407fd2628b0ac117975278ec4c9151df27f11c18d3b1978709b9ce0a",
+    "source_size": [
+      2252,
+      2828
+    ],
+    "working_size": [
+      573,
+      720
+    ],
+    "preparation": {
+      "threshold": 50,
+      "illumination_sigma": 32,
+      "gain_limits": [
+        0.7,
+        1.4
+      ]
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.366,
+    "pixel_components_8_connected": 847,
+    "pixel_holes_4_connected": 898,
+    "trace_seconds": 1.777,
+    "contours": 1504,
+    "segments": 8567,
+    "svg_bytes": 427111
+  },
+  {
+    "stem": "tile-16-720-raw-otsu",
+    "tile": 16,
+    "role": "unapproved generalization probe",
+    "method": "raw-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5219.PNG",
+    "source_sha256": "9b2d226691340c20c2d3112700f55fb3010dd147698e51425665ac3ec8801031",
+    "source_size": [
+      1554,
+      1899
+    ],
+    "working_size": [
+      589,
+      720
+    ],
+    "preparation": {
+      "threshold": 46
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3047,
+    "pixel_components_8_connected": 534,
+    "pixel_holes_4_connected": 93,
+    "trace_seconds": 0.725,
+    "contours": 614,
+    "segments": 3319,
+    "svg_bytes": 168324
+  },
+  {
+    "stem": "tile-16-720-soft-otsu",
+    "tile": 16,
+    "role": "unapproved generalization probe",
+    "method": "soft-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5219.PNG",
+    "source_sha256": "9b2d226691340c20c2d3112700f55fb3010dd147698e51425665ac3ec8801031",
+    "source_size": [
+      1554,
+      1899
+    ],
+    "working_size": [
+      589,
+      720
+    ],
+    "preparation": {
+      "threshold": 46,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3006,
+    "pixel_components_8_connected": 242,
+    "pixel_holes_4_connected": 15,
+    "trace_seconds": 0.333,
+    "contours": 258,
+    "segments": 1527,
+    "svg_bytes": 76370
+  },
+  {
+    "stem": "tile-16-720-connected-tones",
+    "tile": 16,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5219.PNG",
+    "source_sha256": "9b2d226691340c20c2d3112700f55fb3010dd147698e51425665ac3ec8801031",
+    "source_size": [
+      1554,
+      1899
+    ],
+    "working_size": [
+      589,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 46,
+      "growth_threshold": 32.2,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3233,
+    "pixel_components_8_connected": 86,
+    "pixel_holes_4_connected": 51,
+    "trace_seconds": 0.235,
+    "contours": 129,
+    "segments": 1477,
+    "svg_bytes": 69767
+  },
+  {
+    "stem": "tile-16-720-local-light",
+    "tile": 16,
+    "role": "unapproved generalization probe",
+    "method": "local-light",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5219.PNG",
+    "source_sha256": "9b2d226691340c20c2d3112700f55fb3010dd147698e51425665ac3ec8801031",
+    "source_size": [
+      1554,
+      1899
+    ],
+    "working_size": [
+      589,
+      720
+    ],
+    "preparation": {
+      "threshold": 33,
+      "illumination_sigma": 32,
+      "gain_limits": [
+        0.7,
+        1.4
+      ]
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3412,
+    "pixel_components_8_connected": 754,
+    "pixel_holes_4_connected": 295,
+    "trace_seconds": 1.185,
+    "contours": 981,
+    "segments": 5697,
+    "svg_bytes": 286721
+  },
+  {
+    "stem": "tile-25-720-raw-otsu",
+    "tile": 25,
+    "role": "unapproved generalization probe",
+    "method": "raw-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5228.PNG",
+    "source_sha256": "7a56e6f908c909764670515da21073653112294e2cf23a990748103a180c314e",
+    "source_size": [
+      2051,
+      2371
+    ],
+    "working_size": [
+      623,
+      720
+    ],
+    "preparation": {
+      "threshold": 96
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.238,
+    "pixel_components_8_connected": 1065,
+    "pixel_holes_4_connected": 904,
+    "trace_seconds": 2.218,
+    "contours": 1741,
+    "segments": 10269,
+    "svg_bytes": 508698
+  },
+  {
+    "stem": "tile-25-720-soft-otsu",
+    "tile": 25,
+    "role": "unapproved generalization probe",
+    "method": "soft-otsu",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5228.PNG",
+    "source_sha256": "7a56e6f908c909764670515da21073653112294e2cf23a990748103a180c314e",
+    "source_size": [
+      2051,
+      2371
+    ],
+    "working_size": [
+      623,
+      720
+    ],
+    "preparation": {
+      "threshold": 95,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2379,
+    "pixel_components_8_connected": 423,
+    "pixel_holes_4_connected": 223,
+    "trace_seconds": 0.853,
+    "contours": 617,
+    "segments": 4489,
+    "svg_bytes": 217137
+  },
+  {
+    "stem": "tile-25-720-connected-tones",
+    "tile": 25,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5228.PNG",
+    "source_sha256": "7a56e6f908c909764670515da21073653112294e2cf23a990748103a180c314e",
+    "source_size": [
+      2051,
+      2371
+    ],
+    "working_size": [
+      623,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 95,
+      "growth_threshold": 66.5,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3083,
+    "pixel_components_8_connected": 113,
+    "pixel_holes_4_connected": 385,
+    "trace_seconds": 0.715,
+    "contours": 458,
+    "segments": 4073,
+    "svg_bytes": 193441
+  },
+  {
+    "stem": "tile-25-720-local-light",
+    "tile": 25,
+    "role": "unapproved generalization probe",
+    "method": "local-light",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5228.PNG",
+    "source_sha256": "7a56e6f908c909764670515da21073653112294e2cf23a990748103a180c314e",
+    "source_size": [
+      2051,
+      2371
+    ],
+    "working_size": [
+      623,
+      720
+    ],
+    "preparation": {
+      "threshold": 72,
+      "illumination_sigma": 32,
+      "gain_limits": [
+        0.7,
+        1.4
+      ]
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2454,
+    "pixel_components_8_connected": 1362,
+    "pixel_holes_4_connected": 860,
+    "trace_seconds": 2.48,
+    "contours": 2012,
+    "segments": 11658,
+    "svg_bytes": 578555
+  },
+  {
+    "stem": "tile-01-720-connected-tones",
+    "tile": 1,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5204.PNG",
+    "source_sha256": "aee97b73d924e514d7638725d961e942965b2e77e0f1055e39f02821d126c601",
+    "source_size": [
+      1797,
+      2166
+    ],
+    "working_size": [
+      597,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 66,
+      "growth_threshold": 46.2,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6328,
+    "pixel_components_8_connected": 64,
+    "pixel_holes_4_connected": 79,
+    "trace_seconds": 0.256,
+    "contours": 135,
+    "segments": 1464,
+    "svg_bytes": 68564
+  },
+  {
+    "stem": "tile-03-720-connected-tones",
+    "tile": 3,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5206.PNG",
+    "source_sha256": "729db16195f88ad8642f5b9d42eacfe740d74e63e5985720886a6837853ea994",
+    "source_size": [
+      1868,
+      2379
+    ],
+    "working_size": [
+      565,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 82,
+      "growth_threshold": 57.4,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3742,
+    "pixel_components_8_connected": 143,
+    "pixel_holes_4_connected": 176,
+    "trace_seconds": 0.472,
+    "contours": 288,
+    "segments": 2978,
+    "svg_bytes": 139589
+  },
+  {
+    "stem": "tile-05-720-connected-tones",
+    "tile": 5,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5208.PNG",
+    "source_sha256": "82d496550192173ace0eb2e8b03632cd1afa8385357522179340a59531f0b2a4",
+    "source_size": [
+      1696,
+      2080
+    ],
+    "working_size": [
+      587,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 27,
+      "growth_threshold": 18.9,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6724,
+    "pixel_components_8_connected": 66,
+    "pixel_holes_4_connected": 118,
+    "trace_seconds": 0.27,
+    "contours": 168,
+    "segments": 1777,
+    "svg_bytes": 82766
+  },
+  {
+    "stem": "tile-06-720-connected-tones",
+    "tile": 6,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5209.PNG",
+    "source_sha256": "880eb6e3db2fba7ed7bc5eedc12a1e988b3ee366cda71265a3a58cfe76edbcb8",
+    "source_size": [
+      2234,
+      2726
+    ],
+    "working_size": [
+      590,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 52,
+      "growth_threshold": 36.4,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.502,
+    "pixel_components_8_connected": 54,
+    "pixel_holes_4_connected": 108,
+    "trace_seconds": 0.25,
+    "contours": 152,
+    "segments": 1508,
+    "svg_bytes": 70394
+  },
+  {
+    "stem": "tile-07-720-connected-tones",
+    "tile": 7,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5210.PNG",
+    "source_sha256": "7c2b197754f0a5abc8df47e26d9c8026fe4a27b7decfef086115d9cf69c01c76",
+    "source_size": [
+      1578,
+      2009
+    ],
+    "working_size": [
+      566,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 57,
+      "growth_threshold": 39.9,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6681,
+    "pixel_components_8_connected": 54,
+    "pixel_holes_4_connected": 106,
+    "trace_seconds": 0.246,
+    "contours": 144,
+    "segments": 1702,
+    "svg_bytes": 80169
+  },
+  {
+    "stem": "tile-08-720-connected-tones",
+    "tile": 8,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5211.PNG",
+    "source_sha256": "d606de5c555e904c29f86c9e17109c5543d4b5c834bd674ff4cb5dd41edd7bc5",
+    "source_size": [
+      1885,
+      2718
+    ],
+    "working_size": [
+      499,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 58,
+      "growth_threshold": 40.6,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.276,
+    "pixel_components_8_connected": 192,
+    "pixel_holes_4_connected": 191,
+    "trace_seconds": 0.501,
+    "contours": 356,
+    "segments": 3610,
+    "svg_bytes": 168341
+  },
+  {
+    "stem": "tile-09-720-connected-tones",
+    "tile": 9,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5212.PNG",
+    "source_sha256": "f5bc789934ddf87a67787f2e947bea4bc38f576a81be9e5bd995dd6284942cc8",
+    "source_size": [
+      2517,
+      2229
+    ],
+    "working_size": [
+      720,
+      638
+    ],
+    "preparation": {
+      "seed_threshold": 62,
+      "growth_threshold": 43.4,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.4701,
+    "pixel_components_8_connected": 103,
+    "pixel_holes_4_connected": 165,
+    "trace_seconds": 0.426,
+    "contours": 241,
+    "segments": 2674,
+    "svg_bytes": 125203
+  },
+  {
+    "stem": "tile-10-720-connected-tones",
+    "tile": 10,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5213.PNG",
+    "source_sha256": "575f99f4d5176e3c235c644c08cb193ad4eaa23c1113734a2e2be1676940cc40",
+    "source_size": [
+      1962,
+      2403
+    ],
+    "working_size": [
+      588,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 56,
+      "growth_threshold": 39.2,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2513,
+    "pixel_components_8_connected": 154,
+    "pixel_holes_4_connected": 193,
+    "trace_seconds": 0.514,
+    "contours": 322,
+    "segments": 3050,
+    "svg_bytes": 143410
+  },
+  {
+    "stem": "tile-11-720-connected-tones",
+    "tile": 11,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5214.PNG",
+    "source_sha256": "39a6aa3d484f39c389ecb6581f5552f700abd0f5bde70af509f117d039a1c785",
+    "source_size": [
+      2292,
+      2127
+    ],
+    "working_size": [
+      720,
+      668
+    ],
+    "preparation": {
+      "seed_threshold": 64,
+      "growth_threshold": 44.8,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.4202,
+    "pixel_components_8_connected": 71,
+    "pixel_holes_4_connected": 77,
+    "trace_seconds": 0.278,
+    "contours": 138,
+    "segments": 1891,
+    "svg_bytes": 87284
+  },
+  {
+    "stem": "tile-13-720-connected-tones",
+    "tile": 13,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5216.PNG",
+    "source_sha256": "20dfdcbbfd92c3aea298e010add286608a51c1cfa3a5d2ccaac032fe5d8d42ea",
+    "source_size": [
+      2422,
+      2545
+    ],
+    "working_size": [
+      685,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 75,
+      "growth_threshold": 52.5,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.5494,
+    "pixel_components_8_connected": 84,
+    "pixel_holes_4_connected": 130,
+    "trace_seconds": 0.389,
+    "contours": 198,
+    "segments": 1869,
+    "svg_bytes": 89028
+  },
+  {
+    "stem": "tile-14-720-connected-tones",
+    "tile": 14,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5217.PNG",
+    "source_sha256": "2fdce395f4eec0df5ec6c9fd0fc17b40e5bcddf08b5c250ffb97fb13b64c7d4c",
+    "source_size": [
+      1472,
+      1978
+    ],
+    "working_size": [
+      536,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 40,
+      "growth_threshold": 28.0,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3106,
+    "pixel_components_8_connected": 101,
+    "pixel_holes_4_connected": 44,
+    "trace_seconds": 0.256,
+    "contours": 138,
+    "segments": 1493,
+    "svg_bytes": 68723
+  },
+  {
+    "stem": "tile-15-720-connected-tones",
+    "tile": 15,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5218.PNG",
+    "source_sha256": "3257bd8ae4d49950777cc6e78baa5a0cbe71cd21b9db93aa7a1c91e9cf0fe088",
+    "source_size": [
+      1932,
+      2505
+    ],
+    "working_size": [
+      555,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 75,
+      "growth_threshold": 52.5,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.4468,
+    "pixel_components_8_connected": 86,
+    "pixel_holes_4_connected": 254,
+    "trace_seconds": 0.493,
+    "contours": 298,
+    "segments": 3317,
+    "svg_bytes": 156028
+  },
+  {
+    "stem": "tile-17-720-connected-tones",
+    "tile": 17,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5220.PNG",
+    "source_sha256": "2409edd7d2dea8ff0536933b5a30d51626bd5081ee63ea59c01e70e12c8b727d",
+    "source_size": [
+      2369,
+      2671
+    ],
+    "working_size": [
+      639,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 70,
+      "growth_threshold": 49.0,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6888,
+    "pixel_components_8_connected": 54,
+    "pixel_holes_4_connected": 102,
+    "trace_seconds": 0.248,
+    "contours": 136,
+    "segments": 1532,
+    "svg_bytes": 71369
+  },
+  {
+    "stem": "tile-18-720-connected-tones",
+    "tile": 18,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5221.PNG",
+    "source_sha256": "d1623d87a5d343d222b4c3ef2fa3ca39e6e911159137e8ab3af2d61952332349",
+    "source_size": [
+      1336,
+      1765
+    ],
+    "working_size": [
+      545,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 44,
+      "growth_threshold": 30.8,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3127,
+    "pixel_components_8_connected": 104,
+    "pixel_holes_4_connected": 178,
+    "trace_seconds": 0.43,
+    "contours": 254,
+    "segments": 2773,
+    "svg_bytes": 130649
+  },
+  {
+    "stem": "tile-19-720-connected-tones",
+    "tile": 19,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5222.PNG",
+    "source_sha256": "88d2d1d766884805fb1e910a5ab2c9a3389e952812ef45bd5b2fb47758fa94f2",
+    "source_size": [
+      2363,
+      2710
+    ],
+    "working_size": [
+      628,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 65,
+      "growth_threshold": 45.5,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.4482,
+    "pixel_components_8_connected": 121,
+    "pixel_holes_4_connected": 334,
+    "trace_seconds": 0.64,
+    "contours": 419,
+    "segments": 3584,
+    "svg_bytes": 170089
+  },
+  {
+    "stem": "tile-20-720-connected-tones",
+    "tile": 20,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5223.PNG",
+    "source_sha256": "dfcf7419a285357fe104bdba0d8e3d5e21c0f893a552f09752d691454a0553ea",
+    "source_size": [
+      1383,
+      1686
+    ],
+    "working_size": [
+      591,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 29,
+      "growth_threshold": 20.3,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.1745,
+    "pixel_components_8_connected": 310,
+    "pixel_holes_4_connected": 183,
+    "trace_seconds": 0.675,
+    "contours": 466,
+    "segments": 3743,
+    "svg_bytes": 178756
+  },
+  {
+    "stem": "tile-21-720-connected-tones",
+    "tile": 21,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5224.PNG",
+    "source_sha256": "18dc5fbbe1911c723e91dafb0b58955d2fff83c0ee4801adafb29016950d4a47",
+    "source_size": [
+      2057,
+      2379
+    ],
+    "working_size": [
+      623,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 66,
+      "growth_threshold": 46.2,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.7108,
+    "pixel_components_8_connected": 9,
+    "pixel_holes_4_connected": 78,
+    "trace_seconds": 0.138,
+    "contours": 82,
+    "segments": 771,
+    "svg_bytes": 36371
+  },
+  {
+    "stem": "tile-22-720-connected-tones",
+    "tile": 22,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5225.PNG",
+    "source_sha256": "a459faf54d3ce0dbfd8594df32b3ac96f40f53d10a2211078402ad1ab861b5b2",
+    "source_size": [
+      1495,
+      1820
+    ],
+    "working_size": [
+      591,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 30,
+      "growth_threshold": 21.0,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.4143,
+    "pixel_components_8_connected": 194,
+    "pixel_holes_4_connected": 178,
+    "trace_seconds": 0.55,
+    "contours": 341,
+    "segments": 3404,
+    "svg_bytes": 159458
+  },
+  {
+    "stem": "tile-23-720-connected-tones",
+    "tile": 23,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5226.PNG",
+    "source_sha256": "aff491c831e93e245f1ccc7c75cf4ca643da341c5c1deb0d10b6e43d113e38bd",
+    "source_size": [
+      1708,
+      2190
+    ],
+    "working_size": [
+      562,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 86,
+      "growth_threshold": 60.2,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2059,
+    "pixel_components_8_connected": 172,
+    "pixel_holes_4_connected": 206,
+    "trace_seconds": 0.547,
+    "contours": 348,
+    "segments": 3521,
+    "svg_bytes": 164883
+  },
+  {
+    "stem": "tile-24-720-connected-tones",
+    "tile": 24,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5227.PNG",
+    "source_sha256": "9135a274aee5a2d43be1a9d88d1015f59c8b4ecdbbd1881563b8408eca3fba6b",
+    "source_size": [
+      1613,
+      1883
+    ],
+    "working_size": [
+      617,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 35,
+      "growth_threshold": 24.5,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.7151,
+    "pixel_components_8_connected": 32,
+    "pixel_holes_4_connected": 68,
+    "trace_seconds": 0.155,
+    "contours": 90,
+    "segments": 858,
+    "svg_bytes": 40697
+  },
+  {
+    "stem": "tile-26-720-connected-tones",
+    "tile": 26,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5229.PNG",
+    "source_sha256": "7295a6dd5a36cdcf4df7cbb408f9cecd73a7f95e9805220bb85021f404f48ce4",
+    "source_size": [
+      1395,
+      1993
+    ],
+    "working_size": [
+      504,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 47,
+      "growth_threshold": 32.9,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.298,
+    "pixel_components_8_connected": 148,
+    "pixel_holes_4_connected": 76,
+    "trace_seconds": 0.401,
+    "contours": 216,
+    "segments": 2230,
+    "svg_bytes": 104623
+  },
+  {
+    "stem": "tile-27-720-connected-tones",
+    "tile": 27,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5230.PNG",
+    "source_sha256": "bf97b07eaefd13255f32c59afb14a369e511d1eccd2e50ce0040071b5d2a3740",
+    "source_size": [
+      2021,
+      2639
+    ],
+    "working_size": [
+      551,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 61,
+      "growth_threshold": 42.7,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2995,
+    "pixel_components_8_connected": 124,
+    "pixel_holes_4_connected": 196,
+    "trace_seconds": 0.447,
+    "contours": 289,
+    "segments": 2866,
+    "svg_bytes": 135290
+  },
+  {
+    "stem": "tile-28-720-connected-tones",
+    "tile": 28,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5231.PNG",
+    "source_sha256": "fc6f2928967d20ded3869754243abb1f197ef36fa454d681b983c18927dd7aa8",
+    "source_size": [
+      1431,
+      1773
+    ],
+    "working_size": [
+      581,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 43,
+      "growth_threshold": 30.1,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2269,
+    "pixel_components_8_connected": 165,
+    "pixel_holes_4_connected": 76,
+    "trace_seconds": 0.344,
+    "contours": 227,
+    "segments": 2043,
+    "svg_bytes": 96520
+  },
+  {
+    "stem": "tile-30-720-connected-tones",
+    "tile": 30,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5233.PNG",
+    "source_sha256": "c6b93b68ee4806287a43f6d5a8c3d919172b4eeca39a167577aa604bc602afb0",
+    "source_size": [
+      2086,
+      1780
+    ],
+    "working_size": [
+      720,
+      614
+    ],
+    "preparation": {
+      "seed_threshold": 60,
+      "growth_threshold": 42.0,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3578,
+    "pixel_components_8_connected": 36,
+    "pixel_holes_4_connected": 95,
+    "trace_seconds": 0.237,
+    "contours": 114,
+    "segments": 1521,
+    "svg_bytes": 71083
+  },
+  {
+    "stem": "tile-31-720-connected-tones",
+    "tile": 31,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5234.PNG",
+    "source_sha256": "e23e449ca715053d905d636fc032a18cc3cbf8725dfa71a39d6c582dddd58934",
+    "source_size": [
+      2021,
+      2718
+    ],
+    "working_size": [
+      535,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 71,
+      "growth_threshold": 49.7,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.5428,
+    "pixel_components_8_connected": 153,
+    "pixel_holes_4_connected": 290,
+    "trace_seconds": 0.55,
+    "contours": 401,
+    "segments": 3699,
+    "svg_bytes": 177992
+  },
+  {
+    "stem": "tile-32-720-connected-tones",
+    "tile": 32,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5235.PNG",
+    "source_sha256": "f941a4045e668e02459b2e3d65cd8554bd0939259fc6bfebe265dd2ed1f94bfa",
+    "source_size": [
+      1602,
+      1820
+    ],
+    "working_size": [
+      634,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 56,
+      "growth_threshold": 39.2,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.444,
+    "pixel_components_8_connected": 91,
+    "pixel_holes_4_connected": 69,
+    "trace_seconds": 0.26,
+    "contours": 153,
+    "segments": 1363,
+    "svg_bytes": 63942
+  },
+  {
+    "stem": "tile-33-720-connected-tones",
+    "tile": 33,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5236.PNG",
+    "source_sha256": "e8432b7f94912e53cfc554cd41f18ce3d8c8a18f9ab6a7d7775e63773ccae7f3",
+    "source_size": [
+      1826,
+      2521
+    ],
+    "working_size": [
+      522,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 74,
+      "growth_threshold": 51.8,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3129,
+    "pixel_components_8_connected": 131,
+    "pixel_holes_4_connected": 158,
+    "trace_seconds": 0.409,
+    "contours": 268,
+    "segments": 2680,
+    "svg_bytes": 127144
+  },
+  {
+    "stem": "tile-34-720-connected-tones",
+    "tile": 34,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5237.PNG",
+    "source_sha256": "8cd242a394bd6b62f2f9226663795f6cd400a0f9144cacfb0164a281de8b9c8b",
+    "source_size": [
+      1661,
+      1765
+    ],
+    "working_size": [
+      678,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 59,
+      "growth_threshold": 41.3,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2571,
+    "pixel_components_8_connected": 128,
+    "pixel_holes_4_connected": 109,
+    "trace_seconds": 0.413,
+    "contours": 222,
+    "segments": 2454,
+    "svg_bytes": 116166
+  },
+  {
+    "stem": "tile-35-720-connected-tones",
+    "tile": 35,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5238.PNG",
+    "source_sha256": "340b79ba22de33705b6ddc12ea8a4bb439711de79bf1e22e5497e45b7e3fa981",
+    "source_size": [
+      1849,
+      2615
+    ],
+    "working_size": [
+      509,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 61,
+      "growth_threshold": 42.7,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.602,
+    "pixel_components_8_connected": 116,
+    "pixel_holes_4_connected": 223,
+    "trace_seconds": 0.392,
+    "contours": 301,
+    "segments": 2649,
+    "svg_bytes": 126959
+  },
+  {
+    "stem": "tile-36-720-connected-tones",
+    "tile": 36,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5239.PNG",
+    "source_sha256": "699c76ac2bfc260664c060bb4449282441d24fa917c72ebd879b956b1adb07bf",
+    "source_size": [
+      1489,
+      1898
+    ],
+    "working_size": [
+      565,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 50,
+      "growth_threshold": 35.0,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2909,
+    "pixel_components_8_connected": 98,
+    "pixel_holes_4_connected": 48,
+    "trace_seconds": 0.219,
+    "contours": 141,
+    "segments": 1306,
+    "svg_bytes": 61463
+  },
+  {
+    "stem": "tile-37-720-connected-tones",
+    "tile": 37,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5240.PNG",
+    "source_sha256": "94e0bd0aaaaf20e35219f8bf9a3400a1adb4c537d3a7cd02f1741fd93faa36ff",
+    "source_size": [
+      2162,
+      2560
+    ],
+    "working_size": [
+      608,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 74,
+      "growth_threshold": 51.8,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3888,
+    "pixel_components_8_connected": 35,
+    "pixel_holes_4_connected": 95,
+    "trace_seconds": 0.236,
+    "contours": 111,
+    "segments": 1504,
+    "svg_bytes": 70346
+  },
+  {
+    "stem": "tile-38-720-connected-tones",
+    "tile": 38,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5241.PNG",
+    "source_sha256": "55e7ce71520b1452af855f85741a027d060f8843003f806170aff04a1ae48224",
+    "source_size": [
+      1921,
+      2616
+    ],
+    "working_size": [
+      529,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 46,
+      "growth_threshold": 32.2,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2964,
+    "pixel_components_8_connected": 107,
+    "pixel_holes_4_connected": 195,
+    "trace_seconds": 0.417,
+    "contours": 279,
+    "segments": 2747,
+    "svg_bytes": 128560
+  },
+  {
+    "stem": "tile-39-720-connected-tones",
+    "tile": 39,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5242.PNG",
+    "source_sha256": "68e33b4b3d7e37a3ac347a79ea588c1f911c1f977da7c1469a3c232def83dcd3",
+    "source_size": [
+      1667,
+      2001
+    ],
+    "working_size": [
+      600,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 61,
+      "growth_threshold": 42.7,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3472,
+    "pixel_components_8_connected": 160,
+    "pixel_holes_4_connected": 102,
+    "trace_seconds": 0.408,
+    "contours": 249,
+    "segments": 2374,
+    "svg_bytes": 112628
+  },
+  {
+    "stem": "tile-40-720-connected-tones",
+    "tile": 40,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5243.PNG",
+    "source_sha256": "a86d04aa3b42998879d990f8ebcff5b0c6695436ac03aa398bfd98606f1631f4",
+    "source_size": [
+      2169,
+      2647
+    ],
+    "working_size": [
+      590,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 58,
+      "growth_threshold": 40.6,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.6053,
+    "pixel_components_8_connected": 91,
+    "pixel_holes_4_connected": 124,
+    "trace_seconds": 0.345,
+    "contours": 195,
+    "segments": 2159,
+    "svg_bytes": 101909
+  },
+  {
+    "stem": "tile-41-720-connected-tones",
+    "tile": 41,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5244.PNG",
+    "source_sha256": "3e7116504cecccb6fe7c37ddbfb2bb00a3f6ef005b3be256bbab58d4931837fb",
+    "source_size": [
+      1584,
+      1923
+    ],
+    "working_size": [
+      593,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 43,
+      "growth_threshold": 30.1,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.5867,
+    "pixel_components_8_connected": 34,
+    "pixel_holes_4_connected": 53,
+    "trace_seconds": 0.167,
+    "contours": 78,
+    "segments": 957,
+    "svg_bytes": 44633
+  },
+  {
+    "stem": "tile-42-720-connected-tones",
+    "tile": 42,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5245.PNG",
+    "source_sha256": "8d67f74aac1128f915906506021f7ca5fcf682c00f44784a3c9b5acbe982a76e",
+    "source_size": [
+      2086,
+      2521
+    ],
+    "working_size": [
+      596,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 48,
+      "growth_threshold": 33.6,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3635,
+    "pixel_components_8_connected": 138,
+    "pixel_holes_4_connected": 173,
+    "trace_seconds": 0.471,
+    "contours": 286,
+    "segments": 2881,
+    "svg_bytes": 135169
+  },
+  {
+    "stem": "tile-43-720-connected-tones",
+    "tile": 43,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5246.PNG",
+    "source_sha256": "f70ba4cac76de596631366cca924c0de427e397570dd050c0ddc4ff57453e47c",
+    "source_size": [
+      2097,
+      2592
+    ],
+    "working_size": [
+      582,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 59,
+      "growth_threshold": 41.3,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.4968,
+    "pixel_components_8_connected": 152,
+    "pixel_holes_4_connected": 205,
+    "trace_seconds": 0.491,
+    "contours": 321,
+    "segments": 3232,
+    "svg_bytes": 152041
+  },
+  {
+    "stem": "tile-44-720-connected-tones",
+    "tile": 44,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5247.PNG",
+    "source_sha256": "26c172ebc7a5902b8e050d3bd0c295ffcd17f5f21798a1971bd5c5c03e5086f7",
+    "source_size": [
+      1702,
+      1741
+    ],
+    "working_size": [
+      704,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 51,
+      "growth_threshold": 35.7,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.4436,
+    "pixel_components_8_connected": 85,
+    "pixel_holes_4_connected": 86,
+    "trace_seconds": 0.286,
+    "contours": 161,
+    "segments": 1605,
+    "svg_bytes": 73967
+  },
+  {
+    "stem": "tile-45-720-connected-tones",
+    "tile": 45,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5248.PNG",
+    "source_sha256": "930a7911a68c2898ed0d1e1fde7ac2d24a9d5dbbcc86f2146969cf61b260f16e",
+    "source_size": [
+      2186,
+      2497
+    ],
+    "working_size": [
+      630,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 69,
+      "growth_threshold": 48.3,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.5762,
+    "pixel_components_8_connected": 83,
+    "pixel_holes_4_connected": 108,
+    "trace_seconds": 0.318,
+    "contours": 173,
+    "segments": 1635,
+    "svg_bytes": 78476
+  },
+  {
+    "stem": "tile-46-720-connected-tones",
+    "tile": 46,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5249.PNG",
+    "source_sha256": "daf4f70f0104c73baf3e354fda8a5e179caa438ee61ab258c3c6ae6c3de3471a",
+    "source_size": [
+      1507,
+      1868
+    ],
+    "working_size": [
+      581,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 53,
+      "growth_threshold": 37.1,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2843,
+    "pixel_components_8_connected": 200,
+    "pixel_holes_4_connected": 162,
+    "trace_seconds": 0.537,
+    "contours": 334,
+    "segments": 3186,
+    "svg_bytes": 149656
+  },
+  {
+    "stem": "tile-47-720-connected-tones",
+    "tile": 47,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5250.PNG",
+    "source_sha256": "96a24b7ad3ec3aee48ecdeee0997a85ae57b0e4649d4d9e2c9c34a77b4ffd870",
+    "source_size": [
+      1856,
+      2395
+    ],
+    "working_size": [
+      558,
+      720
+    ],
+    "preparation": {
+      "seed_threshold": 67,
+      "growth_threshold": 46.9,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.2873,
+    "pixel_components_8_connected": 109,
+    "pixel_holes_4_connected": 201,
+    "trace_seconds": 0.45,
+    "contours": 289,
+    "segments": 3093,
+    "svg_bytes": 144916
+  },
+  {
+    "stem": "tile-48-720-connected-tones",
+    "tile": 48,
+    "role": "unapproved generalization probe",
+    "method": "connected-tones",
+    "source": "/Users/ryanburgess/Documents/design 7 (office of future)/studio/assignment 2/simple sections/IMG_5251.PNG",
+    "source_sha256": "762abac208f98008903d8f14835659adaffefd5def96ca02d1ada1246cb791e7",
+    "source_size": [
+      1832,
+      1576
+    ],
+    "working_size": [
+      720,
+      619
+    ],
+    "preparation": {
+      "seed_threshold": 97,
+      "growth_threshold": 67.9,
+      "gaussian_sigma": 0.8
+    },
+    "trace_parameters": {
+      "turdsize": 0,
+      "alphamax": 0.7,
+      "opttolerance": 0.15
+    },
+    "solid_fraction_canvas": 0.3907,
+    "pixel_components_8_connected": 68,
+    "pixel_holes_4_connected": 134,
+    "trace_seconds": 0.346,
+    "contours": 180,
+    "segments": 2210,
+    "svg_bytes": 104074
+  }
+]

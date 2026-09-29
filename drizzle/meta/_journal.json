@@ -1,0 +1,20 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1789676077712,
+      "tag": "0000_young_landau",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1790045401464,
+      "tag": "0001_thin_random",
+      "breakpoints": true
+    }
+  ]
+}

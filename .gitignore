@@ -1,0 +1,8 @@
+node_modules/
+.next/
+.wrangler/
+dist/
+work/
+.DS_Store
+.sites-runtime/
+.vinext/

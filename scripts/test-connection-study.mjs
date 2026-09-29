@@ -1,0 +1,33 @@
+import assert from "node:assert/strict";
+import { supportedVoid, evaluateConnection, evaluateAssembly, evaluateJoint } from "../lib/connection-study.ts";
+const n = 32;
+function slabs(left, right) {
+  const m = new Uint8Array(n * n);
+  for (let y = 8; y < 24; y++) for (let x = left; x < right; x++) if (y < 11 || y > 20) m[y*n+x] = 1;
+  return m;
+}
+const a = slabs(2, 18), b = slabs(12, 28);
+assert(evaluateConnection(a, b, n), "overlapping supported corridors connect");
+assert.equal(evaluateConnection(slabs(1,10), slabs(20,30), n), null, "outside air cannot connect disjoint corridors");
+assert.equal(evaluateConnection(a, a, n), null, "duplicate superposition rejected");
+const solid = new Uint8Array(n*n).fill(1);
+assert.equal(supportedVoid(solid,n).reduce((a,b)=>a+b,0),0);
+assert.equal(evaluateConnection(a,solid,n),null,"blocked void rejected");
+assert.deepEqual(evaluateConnection(a,b,n),evaluateConnection(a,b,n),"deterministic evaluation");
+console.log("PASS: connected corridors, exterior-only rejection, duplicate rejection, blocked void, determinism");
+const triple = evaluateAssembly([slabs(2,15),slabs(10,23),slabs(18,30)],n);
+assert(triple && triple.coverage > .35);
+assert.equal(triple.primary.length+triple.secondary.length+triple.transition.length,triple.cells.length);
+assert.equal(evaluateAssembly([slabs(1,7),slabs(11,17),slabs(23,30)],n),null);
+const narrow = slabs(2,30);
+for(let y=11;y<=20;y++) for(let x=14;x<=16;x++) if(y!==15) narrow[y*n+x]=1;
+const passage=evaluateAssembly([narrow,narrow,narrow],n);
+assert(passage, "narrow continuous passages remain eligible");
+assert(passage.uncertain, "one-cell connection flagged");
+assert.deepEqual(evaluateAssembly([a,b],n),evaluateAssembly([a,b],n));
+console.log("PASS: triple connection, disconnected triple, overlay partition, narrow passage retained and flagged");
+const joined = evaluateJoint(a,slabs(16,30),n);
+assert(joined && joined.massContinuity > .14, "joint needs a shared mass component and supported void");
+assert.equal(evaluateJoint(slabs(1,10),slabs(20,30),n),null,"separate masses cannot form a joint");
+assert.equal(evaluateJoint(a,a,n),null,"near-total overlap cannot form a joint");
+console.log("PASS: joint continuity, separated geometry rejection, excessive overlap rejection");
